@@ -1,0 +1,77 @@
+html, body
+{
+	font: "arial";
+	color: #000000;
+}
+
+input
+{
+	width: 400px;
+	border-radius: 8px;
+	border: black;
+	border-width:1px;
+	margin: 5px 0;
+	text-align: center;
+  margin: 0 auto;
+  
+}
+
+
+textarea#ChatBox
+{
+	width: 400px;
+	border-radius: 8px;
+	border: black;
+	border-width:1px;
+	margin: 5px 0;
+	text-align: left;
+  margin: 0 auto;
+	height: 400px;
+	background:	#F7F8FB;
+	color: #040524;
+	margin-top: auto;
+}
+
+input#User
+{
+	height: 50px;
+	background:#FFFFFF;
+	color:#1E201E;
+	}
+
+input#Msg
+{
+	height: 50px;
+	background:#000000;
+	color: #76E967;
+	}
+
+
+
+img
+{
+	width:100px;
+	height:100px;
+	margin: 0 auto;
+}
+
+button
+{
+	height:50px;
+	width:400px;
+	color: white;
+	border-radius: 5px;
+	background:red;
+	font-size: 20;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin: 0 auto;
+	
+}
+
+.container {
+	display: flex;
+	flex-direction:column;
+	text-align: center;
+	align-content: center;
+  margin: 0 auto;
+}
